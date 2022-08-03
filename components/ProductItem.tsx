@@ -26,7 +26,11 @@ interface ProductItemProps {
 
 function ProductItemComponent({ product, onAddToWishList }: ProductItemProps) {
   const [isAddingToWishList, setIsAddingToWishList] = useState(false);
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 68be70796470429456a1514b0b26dc94ff4412e2
   return (
     <div>
       {product.title} - <strong>{product.priceFormatted}</strong>
